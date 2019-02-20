@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #181c1f;
+  overflow-x: hidden;
+}
+/* video */
+.videoArea {
+  position: relative;
+  margin-left: -230px;
+}
+.headingVideo {
+  position: absolute;
+  height: 280px;
+  top: 150px;
+  left: 450px;
+  width: 1150px;
+}
+.headingVideoText {
+  width: 550px;
+  color: #ffffff;
+  font-size: 45px;
+  text-align: center;
+}
+.imageMainVideo {
+  width: 1500px;
+}
+#buttonVideo {
+  margin-left: 260px;
+  font-size: 45px;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+  color: #ffffff;
+  transform: rotate(90deg);
+}
+/* Everything that is under the Video*/
+.ContentWrapper {
+  width: 1050px;
+  margin: auto;
+}
+.upperArticle {
+  position: absolute;
+  width: 1050px;
+  top: 650px;
+}
+/* Heading under the video */
+#headingMainArticle {
+  color: #ffffff;
+  font-size: 55px;
+  padding: 30px 0;
+}
+/* Article under the heading */
+.upperParagr {
+  border-top: 1px dashed #D3D3D3;
+  padding-top: 25px;
+  column-count: 2;
+  column-gap: 30px;
+}
+.upperParagr p {
+  color: #868d96;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-align: left;
+}
+.upperParagr a {
+  color: #3569a4;
+  text-decoration: none;
+}
+.upperParagr a:hover {
+  text-decoration: underline;
+}
+.asideFalcon {
+  display: table-cell;
+  padding-bottom: 250px;
+}
+.asideFalcon li {
+  font-size: 12px;
+  color: #ffffff;
+  list-style-type: none;
+  background-color: #282c2e;
+  /* Манипулация на цвят */
+  width: 200px;
+  padding: 15px 15px 15px 90px;
+  margin: 5px 0;
+}
+.asideFalcon li a {
+  color: #3569a4;
+  text-decoration: none;
+}
+.asideFalcon li a:hover {
+  text-decoration: underline;
+}
+.asideFalcon img {
+  position: absolute;
+  top: 20px;
+  left: 770px;
+  background-color: transparent;
+}
+/* New article, including the BIG falcon picture */
+.lowerParagr {
+  column-count: 2;
+  column-width: 280px;
+  column-gap: 380px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.lowerArticle {
+  position: absolute;
+  width: 1050px;
+  top: 1280px;
+}
+.lowerArticle h2 {
+  padding: 10px 0;
+}
+.lowerArticle h4 {
+  padding: 7px 0;
+}
+.lowerArticle p {
+  color: #868d96;
+}
+.lowerArticle a {
+  color: #3569a4;
+  text-decoration: none;
+}
+.lowerArticle a:hover {
+  text-decoration: underline;
+}
+/* figures in article */
+.figNose {
+  width: 100px;
+  color: #868d96;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 80px;
+}
+.dragon {
+  padding-top: 100px;
+  margin-bottom: 1px;
+}
+/* table in the end of the article */
+.numberS {
+  padding-top: 40px;
+  width: 350px;
+}
+.numberS th {
+  color: #868d96;
+  font-size: 14px;
+}
+.numberS td {
+  color: #ffffff;
+}
+/* BIG falcon picture */
+.arrow img {
+  position: absolute;
+  top: 180px;
+  left: 400px;
+  width: 25%;
+}
+.falconRender img {
+  position: absolute;
+  top: 30px;
+  left: 400px;
+  background-color: transparent;
+}
+/* Popup PLUS on Rocket Image */
+.popup {
+  position: relative;
+  top: 30px;
+  left: 70px;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+.popup .popupText {
+  position: absolute;
+  left: 160px;
+  top: -80px;
+  display: inline-block;
+  visibility: hidden;
+  width: 220px;
+  background-color: #868d96;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+}
+.popup:hover .popupText {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,52 @@
+.mainHeader {
+  background-color: #181c1f;
+  font-family: Verdana;
+  height: 90px;
+  width: 1100px;
+  padding: 0 200px;
+}
+.mainLogo {
+  float: left;
+  margin: 30px 10px;
+}
+.falconNav {
+  float: left;
+  font-size: 15px;
+  margin: 35px 0;
+}
+.falconNav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.falconNav a:first-child {
+  color: #DAA520;
+}
+.falconNav a:hover {
+  Border-bottom: solid #DAA520;
+  text-decoration: none;
+}
+.spaceNav {
+  float: right;
+  font-size: 13px;
+  margin: 35px 0;
+}
+.spaceNav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.spaceNav a:hover {
+  Border-bottom: solid #D3D3D3;
+}
+.spaceNav a:last-child {
+  background-color: #020303;
+  /* Манипулация на цвят */
+  padding: 5px;
+  border: 3px solid transparent;
+  border-radius: 15px;
+}
+.spaceNav a:last-child:hover {
+  border: 3px solid #DCDCDC;
+  border-radius: 15px;
+}
